@@ -1,0 +1,112 @@
+@font-face {
+    font-family:MuseoSans;
+    src: url(MuseoSans.otf)
+}
+body {
+    background-color: black;
+    overflow: hidden;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */ 
+    -ms-user-select: none; /* IE10+/Edge */
+     user-select: none; /* Standard */    
+}
+#main {
+    display: none;
+    }
+#intro {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    opacity:0.5;
+}
+#intro button {
+    background: transparent;
+    outline: none;
+    color: #EDC2D8FF;
+    border: 3px;
+    padding: 13px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: MuseoSans;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-size: cover;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.6s;
+}
+#intro button:hover {
+    color: #8ABAD3FF;
+    transition: 0.6s;
+}
+#myVideo {
+    position: fixed;
+    top: 51%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    filter: blur(4px) brightness(0.5);
+}
+.Suning {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+    color: #EDC2D8FF;
+    font-size: 45px;
+    font-weight: 200;
+    font-family: MuseoSans;
+}
+.Suning:hover { 
+    font-weight: 300;
+    color: #8ABAD3FF;
+    transition: 0.5s;
+}
+.discord {
+    position: fixed;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #EDC2D8FF;
+    font-size: 45px;
+    font-weight: 200;
+    transition: 0.6s;
+    font-family: MuseoSans;
+}
+.discord:hover { 
+    font-weight: 300;
+    color: #8ABAD3FF;
+    transition: 0.6s;
+    border: 3px  #EDC2D8FF;
+}
+.Containter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: MuseoSans;
+}
+a {
+    color: #EDC2D8FF;
+    text-decoration: none;
+    font-weight:500;
+    font-size:25px; 
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #8ABAD3FF;
+    outline: none;
+    text-decoration: none; 
+    transition: 0.5s;
+}
+
