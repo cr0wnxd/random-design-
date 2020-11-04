@@ -54,7 +54,7 @@ body {
     height: auto;
     z-index: -1;
     transform: translate(-50%, -50%);
-    filter: blur(4px) brightness(0.5);
+    filter: blur(7px) brightness(0.4);
 }
 .Suning {
     position: fixed;
