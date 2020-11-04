@@ -3,7 +3,7 @@ var vid = document.getElementById("myVideo");
 $("#continueButton").click(function () {
 $("#intro").fadeOut(2500);
 setTimeout(function(){
-$("#main").fadeIn(9000);
+$("#main").fadeIn(2000);
 vid.play();vid
         }, 500)
 });
