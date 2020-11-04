@@ -5,11 +5,6 @@
 body {
     background-color: black;
     overflow: hidden;
-    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC),auto;
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */ 
-    -ms-user-select: none; /* IE10+/Edge */
-     user-select: none; /* Standard */    
 }
 #main {
     display: none;
@@ -32,13 +27,14 @@ body {
     font-family: MuseoSans;
     font-size: 20px;
     margin: 4px 2px;
-    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC),auto;
+    cursor: pointer;
     background-size: cover;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: 0.6s;
+    user-select: none; /* Non-prefixed version, currently */
 }
 #intro button:hover {
     color: #8ABAD3FF;
@@ -55,6 +51,7 @@ body {
     z-index: -1;
     transform: translate(-50%, -50%);
     filter: blur(7px) brightness(0.4);
+    pointer-events: none;
 }
 .Suning {
     position: fixed;
@@ -66,6 +63,7 @@ body {
     font-size: 45px;
     font-weight: 200;
     font-family: MuseoSans;
+    user-select: none; /* Non-prefixed version, currently */
 }
 .Suning:hover { 
     font-weight: 300;
@@ -82,19 +80,21 @@ body {
     font-weight: 200;
     transition: 0.6s;
     font-family: MuseoSans;
+    cursor: pointer;
 }
 .discord:hover { 
-    font-weight: 300;
+    font-weight: 500;
     color: #8ABAD3FF;
     transition: 0.6s;
-    border: 3px  #EDC2D8FF;
 }
 .Containter {
     position: fixed;
+    text-align:center ;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: MuseoSans;
+    user-select: none; /* Non-prefixed version, currently */
 }
 a {
     color: #EDC2D8FF;
@@ -102,7 +102,7 @@ a {
     font-weight:500;
     font-size:25px; 
     transition: 0.5s;
-    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC),auto;
+    user-select: none; /* Non-prefixed version, currently */
 }
 
 a:hover {
