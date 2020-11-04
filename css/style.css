@@ -95,6 +95,7 @@ body {
     transform: translate(-50%, -50%);
     font-family: MuseoSans;
     user-select: none; /* Non-prefixed version, currently */
+    cursor: default;
 }
 a {
     color: #EDC2D8FF;
