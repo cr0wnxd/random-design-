@@ -1,4 +1,4 @@
-document.getElementById("myVideo").volume = 0.2;
+document.getElementById("myVideo").volume = 0.1;
 var vid = document.getElementById("myVideo");
 $("#continueButton").click(function () {
 $("#intro").fadeOut(2500);
