@@ -9,44 +9,11 @@ body {
 #main {
     display: none;
     }
+
 #intro {
     width: 100vw;
     height: 100vh;
     background-color: transparent;
-    opacity:0.5;
-}
-#intro button {
-    background: transparent;
-    outline: none;
-    color: #EDC2D8FF;
-    border: 3px;
-    padding: 13px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: MuseoSans;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-    background-size: cover;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 0.6s;
-    cursor: default;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-     -moz-user-select: none; /* Old versions of Firefox */
-     -ms-user-select: none; /* Internet Explorer/Edge */
-        user-select: none; /* Non-prefixed version, currently */
-
-}
-
-#intro button:hover {
-    color: #8ABAD3FF;
-    transition: 0.6s;
 }
 
 #myVideo {
@@ -62,14 +29,28 @@ body {
     filter: blur(4px)grayscale(1);
     pointer-events: none;
 }
-
+pre {
+  color: #89ABE3FF;
+  text-align: center;
+  font-weight: 300px;
+	font-size: 20px;
+	user-select: none;
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  transition: 0.5s
+}
+pre:hover{
+    color: #CBCE91FF;
+    font-weight: 400px;
+}
 .Suning {
     position: fixed;
     top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: 0.5s;
-    color: #EDC2D8FF;
+    color: #89ABE3FF;
     font-size: 45px;
     font-weight: 200;
     font-family: MuseoSans;
@@ -81,9 +62,9 @@ body {
         user-select: none; /* Non-prefixed version, currently */
 }
 
-.Suning:hover { 
+.Suning:hover {
     font-weight: 300;
-    color: #8ABAD3FF;
+    color: #CBCE91FF;
     transition: 0.5s;
 }
 
@@ -92,7 +73,7 @@ body {
     top: 63%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #EDC2D8FF;
+    color: #89ABE3FF;
     font-size: 45px;
     font-weight: 200;
     transition: 0.6s;
@@ -100,9 +81,9 @@ body {
     cursor: default;
 }
 
-.discord:hover { 
+.discord:hover {
     font-weight: 500;
-    color: #8ABAD3FF;
+    color: #CBCE91FF;
     transition: 0.6s;
 }
 
@@ -112,7 +93,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: MuseoSans;  
+    font-family: MuseoSans;
     cursor: default;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -122,12 +103,12 @@ body {
         user-select: none; /* Non-prefixed version, currently */
 }
 a {
-    color: #EDC2D8FF;
+    color: #89ABE3FF;
     text-decoration: none;
     font-weight:500;
-    font-size:25px; 
+    font-size:25px;
     transition: 0.5s;
-    cursor: default;
+    cursor:pointer;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
     -khtml-user-select: none; /* Konqueror HTML */
@@ -137,9 +118,8 @@ a {
 }
 
 a:hover {
-    color: #8ABAD3FF;
+    color: #CBCE91FF;
     outline: none;
-    text-decoration: none; 
+    text-decoration: none;
     transition: 0.5s;
 }
-
