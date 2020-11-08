@@ -37,7 +37,7 @@ pre {
 	user-select: none;
   position: absolute;
   top: 40%;
-  left: 33%;
+  left: 25%;
   transition: 0.5s
 }
 pre:hover{
